@@ -3,8 +3,13 @@
     margin: 0px auto;
     height: 200px;
     background-color: lightcoral;
+    padding: 40px;
 }
 .text{
+    text-align: center !important;
+    /* margin-top: 40px; */
+}
+.text2{
     text-align: center !important;
     margin-top: 40px;
 }

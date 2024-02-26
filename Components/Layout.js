@@ -8,7 +8,7 @@ export default function Layout({ children }) {
               <h1 className={styles.text}>
                     CarBaam
                 </h1>
-                <p className={styles.text}>
+                <p className={styles.text2}>
                     Choose And Buy Your car
                 </p>
               </Link>
