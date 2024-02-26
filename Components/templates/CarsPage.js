@@ -1,3 +1,4 @@
+import Card from "../modules/Card"
 import styles from "./CarsPage.module.css"
 
 export default function CarsPage({data}) {
@@ -5,7 +6,7 @@ export default function CarsPage({data}) {
     <div className={styles.container}>
 {
 data.map(carItem=>(
-    <p key={carItem.id}>{carItem.name}</p>
+    <Card key={carItem.id} {...carItem}/>
 ))
 }
     </div>
